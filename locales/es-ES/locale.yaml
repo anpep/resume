@@ -1,0 +1,81 @@
+Bio:
+  Full-Name: Ángel Pérez
+  Description: Estudiante de Informática
+  Location: Valencia, España
+  Contact:
+    Phone:
+      URI: tel:+34651327256
+      Human-friendly: (+34) 651 327 256
+    E-mail:
+      URI: mailto:ap@anpep.co
+      Human-friendly: ap@anpep.co
+    Web:
+      URI: https://anpep.co
+      Human-friendly: anpep.co
+
+Experience:
+  - Title: Desarrollador Python
+    Company: Connected Health Services S.L.
+    Timeline:
+      From: Feb. '22
+  - Title: Desarrollador Full-stack
+    Company: Furious Koalas Ltd.
+    Achievements:
+      - Participación en el desarrollo de la aplicación web del concurso de la Comisión Europea
+        para el Día Europeo de las Lenguas 2021.
+      - Desarrollo de un software de telepresencia para el sector sanitario con realidad mixta en
+        Microsoft HoloLens y un despliegue 5G.
+    Timeline:
+      From: Ago. '20
+      To: Nov. '21
+
+Education:
+  - Title: Intercambio SICUE (Ing. Informática)
+    University: Universitat Politècnica de València, Valencia
+    Timeline:
+      From: Sept. '21
+      To: Jun. '22
+
+  - Title: Grado en Ingeniería Informática (Ing. Computadores)
+    University: Universidad de Castilla-La Mancha, Ciudad Real
+    Timeline:
+      From: Sept. '18
+      To: Jun. '21
+
+Certifications:
+  - Title: LearnEnglish Select Advanced Level (C1)
+    Organization: British Council
+    Description:
+      Curso intensivo de inglés (nivel C1) con una duración de tres meses y un examen final
+      con una calificación de 100/100.
+    Timeline:
+      From: Dic. '20
+      To: Feb. '21
+
+Skills:
+  - Description: C/C++
+    Level: Intermedio
+  - Description: Programación en kernel Linux
+    Level: Básico
+  - Description: Depuración de software de sistemas
+    Level: Intermedio
+  - Description: C\#/.NET y Win32
+    Level: Avanzado
+  - Description: Python 3
+    Level: Avanzado
+  - Description: Java
+    Level: Intermedio
+  - Description: Sistemas empotrados y MCU
+    Level: Básico
+  - Description: Desarrollo web full-stack
+    Level: Intermedio
+  - Description: Desarrollo en entornos UNIX
+    Level: Intermedio
+  - Description: Unity y OpenGL
+    Level: Básico
+
+Localized:
+  Experience: Experiencia
+  Education: Educación
+  Certifications: Cursos
+  Skills: Habilidades

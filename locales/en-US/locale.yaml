@@ -1,0 +1,82 @@
+Bio:
+  Full-Name: Ángel Pérez
+  Description: Computer Engineering Student
+  Location: Valencia, Spain
+  Contact:
+    Phone:
+      URI: tel:+34651327256
+      Human-friendly: (+34) 651 327 256
+    E-mail:
+      URI: mailto:ap@anpep.co
+      Human-friendly: ap@anpep.co
+    Web:
+      URI: https://anpep.co
+      Human-friendly: anpep.co
+
+Experience:
+  - Title: Python Developer
+    Company: Connected Health Services S.L.
+    Timeline:
+      From: Feb. '22
+
+  - Title: Full-stack Developer
+    Company: Furious Koalas Ltd.
+    Achievements:
+      - Aided in the development of the web app for the Council of Europe quiz on the European Day
+        of Languages 2021.
+      - Developed a telepresence software for the health sector leveraging mixed reality on the
+        Microsoft HoloLens and 5G networking.
+    Timeline:
+      From: Aug. '20
+      To: Nov. '21
+
+Education:
+  - Title: Student Exchange (B.Sc. Computer Science)
+    University: Universitat Politècnica de València, Valencia
+    Timeline:
+      From: Sep. '21
+      To: Jun. '22
+
+  - Title: B.Sc. Computer Science (Comp. Engineering)
+    University: Universidad de Castilla-La Mancha, Ciudad Real
+    Timeline:
+      From: Sep. '18
+      To: Jun. '21
+
+Certifications:
+  - Title: LearnEnglish Select Advanced Level (C1)
+    Organization: British Council
+    Description:
+      Intensive English course (C1 level) with a duration of three months in which I scored
+      100/100 in the final test.
+    Timeline:
+      From: Dec. '20
+      To: Feb. '21
+
+Skills:
+  - Description: C/C++
+    Level: Intermediate
+  - Description: Linux kernel development
+    Level: Basic
+  - Description: Systems software debugging
+    Level: Intermediate
+  - Description: C\#/.NET and Win32
+    Level: Advanced
+  - Description: Python 3
+    Level: Advanced
+  - Description: Java
+    Level: Intermediate
+  - Description: Embedded systems and MCUs
+    Level: Basic
+  - Description: Full-stack web development
+    Level: Intermediate
+  - Description: Development in UNIX environments
+    Level: Intermediate
+  - Description: Unity and OpenGL
+    Level: Basic
+
+Localized:
+  Experience: Experience
+  Education: Education
+  Certifications: Courses
+  Skills: Skills

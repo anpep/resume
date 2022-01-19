@@ -1,0 +1,76 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage{geometry}
+\usepackage{helvetica}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\geometry{
+	a4paper,
+	total={170mm, 257mm},
+	left=20mm,
+	top=20mm
+}
+\pagenumbering{gobble}
+\begin{document}
+\begin{tabularx}{\textwidth}{m{50mm} m{70mm} m{50mm}}
+    \huge\textbf{[[Bio Full-Name]]} \newline &
+    \begin{center}
+    [[Bio Description]] \newline
+    [[Bio Location]] \newline
+    \end{center} &
+    \small{\hyperlink{[[Bio Contact Phone URI]]}{[[Bio Contact Phone Human-friendly]]}} \newline
+    \small{\hyperlink{[[Bio Contact E-mail URI]]}{[[Bio Contact E-mail Human-friendly]]}} \newline
+    \small{\hyperlink{[[Bio Contact Web URI]]}{[[Bio Contact Web Human-friendly]]}} \newline
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{p{20mm} p{100mm} p{50mm}}
+    \textbf{[[Localized Experience]]} &
+    [[for Job in Experience]]
+        \textbf{[[Job Title]]} \newline
+        \textit{[[Job Company]]}
+        \begin{itemize}[leftmargin=*]
+        [[for Achievement in Job Achievements]]
+            \item [[Achievement]]
+        [[end for]]
+        \end{itemize} &
+        \small{[[Job Timeline From]]--[[Job Timeline To]]} \\ &
+    [[end for]]
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{p{20mm} p{100mm} p{50mm}}
+    \textbf{[[Localized Education]]} &
+    [[for Item in Education]]
+        \textbf{[[Item Title]]} \newline
+        \textit{[[Item University]]} \newline &
+        \small{[[Item Timeline From]]--[[Item Timeline To]]} \\ &
+    [[end for]]
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{p{20mm} p{100mm} p{50mm}}
+    \textbf{[[Localized Certifications]]} &
+    [[for Certification in Certifications]]
+        \textbf{[[Certification Title]]} \newline
+        \textit{[[Certification Organization]]}
+        \begin{flushleft}
+        [[Certification Description]]
+        \end{flushleft} &
+        \small{[[Certification Timeline From]]--[[Certification Timeline To]]} \\ &
+    [[end for]]
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{p{20mm} p{66mm} p{60mm}}
+    \textbf{[[Localized Skills]]} &
+    \vspace{-7mm}
+    \begin{itemize}[leftmargin=*]
+    [[for even Skill in Skills]]
+        \item \textbf{[[Skill Description]]} \newline \small{\textit{[[Skill Level]]}}
+    [[end for]]
+    \end{itemize} &
+    \vspace{-7mm}
+    \begin{itemize}[leftmargin=*]
+    [[for odd Skill in Skills]]
+        \item \textbf{[[Skill Description]]} \newline \small{\textit{[[Skill Level]]}}
+    [[end for]]
+    \end{itemize} \\ &
+\end{tabularx}
+\end{document}
