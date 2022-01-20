@@ -58,8 +58,6 @@ Skills:
     Level: Intermediate
   - Description: Linux kernel development
     Level: Basic
-  - Description: Systems software debugging
-    Level: Intermediate
   - Description: C\#/.NET and Win32
     Level: Advanced
   - Description: Python 3
@@ -70,13 +68,40 @@ Skills:
     Level: Basic
   - Description: Full-stack web development
     Level: Intermediate
-  - Description: Development in UNIX environments
-    Level: Intermediate
   - Description: Unity and OpenGL
     Level: Basic
+
+Projects:
+  - Name: SpaceCollider
+    Technologies: C++, Linux, Windows, OpenGL
+    Description: 3D videogame using OpenGL and modern C++.
+    URI: https://github.com/anpep/SpaceCollider
+
+  - Name: Captain
+    Technologies: C\#, C++, Win32
+    Description: High-performance game recorder leveraging Direct2D/3D and \mbox{MediaFoundation}.
+    URI: https://github.com/CaptainApp
+
+  - Name: rzctl
+    Technologies: C, Linux, Kernel
+    Description: Razer\textregistered~ driver and configuration utility.
+    URI: https://github.com/anpep/rzctl
+
+  - Name: SteelSeriesSvc
+    Technologies: C, Win32
+    Description: Enables support for customizing SteelSeries\textregistered~ HID keyboards.
+    URI: https://github.com/anpep/SteelSeriesSvc
+
+Languages:
+  - Name: English
+    Level: C1
+  - Name: Spanish
+    Level: native
 
 Localized:
   Experience: Experience
   Education: Education
   Certifications: Courses
   Skills: Skills
+  Projects: Projects
+  Languages: Languages

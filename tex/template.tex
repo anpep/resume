@@ -4,26 +4,35 @@
 \usepackage{tabularx}
 \usepackage{hyperref}
 \usepackage{enumitem}
+\usepackage{textcomp}
+
 \geometry{
 	a4paper,
-	total={170mm, 257mm},
-	left=20mm,
-	top=20mm
+	left=7.5mm,
+	top=7.5mm,
+	right=7.5mm,
+	bottom=7.5mm
 }
+
 \pagenumbering{gobble}
+\hypersetup{
+    colorlinks=false,% hyperlinks will be black
+    urlbordercolor=black,% hyperlink borders will be red
+    pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+}
 \begin{document}
-\begin{tabularx}{\textwidth}{m{50mm} m{70mm} m{50mm}}
-    \huge\textbf{[[Bio Full-Name]]} \newline &
+\begin{tabularx}{\textwidth}{m{50mm} m{95mm} m{50mm}}
+    {\huge\textbf{[[Bio Full-Name]]}} \newline &
     \begin{center}
     [[Bio Description]] \newline
     [[Bio Location]] \newline
     \end{center} &
-    \small{\hyperlink{[[Bio Contact Phone URI]]}{[[Bio Contact Phone Human-friendly]]}} \newline
-    \small{\hyperlink{[[Bio Contact E-mail URI]]}{[[Bio Contact E-mail Human-friendly]]}} \newline
-    \small{\hyperlink{[[Bio Contact Web URI]]}{[[Bio Contact Web Human-friendly]]}} \newline
+    {\small \href{[[Bio Contact Phone URI]]}{[[Bio Contact Phone Human-friendly]]}} \newline
+    {\small \href{[[Bio Contact E-mail URI]]}{[[Bio Contact E-mail Human-friendly]]}} \newline
+    {\small \href{[[Bio Contact Web URI]]}{[[Bio Contact Web Human-friendly]]}} \newline
 \end{tabularx}
 
-\begin{tabularx}{\textwidth}{p{20mm} p{100mm} p{50mm}}
+\begin{tabularx}{\textwidth}{p{20mm} p{125mm} p{50mm}}
     \textbf{[[Localized Experience]]} &
     [[for Job in Experience]]
         \textbf{[[Job Title]]} \newline
@@ -33,20 +42,20 @@
             \item [[Achievement]]
         [[end for]]
         \end{itemize} &
-        \small{[[Job Timeline From]]--[[Job Timeline To]]} \\ &
+        {\small [[Job Timeline From]]--[[Job Timeline To]]} \\ &
     [[end for]]
 \end{tabularx}
 
-\begin{tabularx}{\textwidth}{p{20mm} p{100mm} p{50mm}}
+\begin{tabularx}{\textwidth}{p{20mm} p{125mm} p{50mm}}
     \textbf{[[Localized Education]]} &
     [[for Item in Education]]
         \textbf{[[Item Title]]} \newline
         \textit{[[Item University]]} \newline &
-        \small{[[Item Timeline From]]--[[Item Timeline To]]} \\ &
+        {\small [[Item Timeline From]]--[[Item Timeline To]]} \\ &
     [[end for]]
 \end{tabularx}
 
-\begin{tabularx}{\textwidth}{p{20mm} p{100mm} p{50mm}}
+\begin{tabularx}{\textwidth}{p{20mm} p{125mm} p{50mm}}
     \textbf{[[Localized Certifications]]} &
     [[for Certification in Certifications]]
         \textbf{[[Certification Title]]} \newline
@@ -54,22 +63,48 @@
         \begin{flushleft}
         [[Certification Description]]
         \end{flushleft} &
-        \small{[[Certification Timeline From]]--[[Certification Timeline To]]} \\ &
+        {\small [[Certification Timeline From]]--[[Certification Timeline To]]} \\ &
     [[end for]]
 \end{tabularx}
 
-\begin{tabularx}{\textwidth}{p{20mm} p{66mm} p{60mm}}
+\begin{tabularx}{\textwidth}{p{20mm} p{77.5mm} p{77.5mm}}
     \textbf{[[Localized Skills]]} &
     \vspace{-7mm}
     \begin{itemize}[leftmargin=*]
     [[for even Skill in Skills]]
-        \item \textbf{[[Skill Description]]} \newline \small{\textit{[[Skill Level]]}}
+        \item \textbf{[[Skill Description]]} \newline {\small\textit{[[Skill Level]]}}
     [[end for]]
     \end{itemize} &
     \vspace{-7mm}
     \begin{itemize}[leftmargin=*]
     [[for odd Skill in Skills]]
-        \item \textbf{[[Skill Description]]} \newline \small{\textit{[[Skill Level]]}}
+        \item \textbf{[[Skill Description]]} \newline {\small\textit{[[Skill Level]]}}
+    [[end for]]
+    \end{itemize} \\ &
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{p{20mm} p{77.5mm} p{77.5mm}}
+    \textbf{[[Localized Projects]]} &
+    \vspace{-7mm}
+    \begin{itemize}[leftmargin=*]
+    [[for even Project in Projects]]
+        \item \textbf{\href{[[Project URI]]}{[[Project Name]]}} \newline {\small\textit{[[Project Technologies]]}} \newline [[Project Description]]
+    [[end for]]
+    \end{itemize} &
+    \vspace{-7mm}
+    \begin{itemize}[leftmargin=*]
+    [[for odd Project in Projects]]
+        \item \textbf{\href{[[Project URI]]}{[[Project Name]]}} \newline {\small\textit{[[Project Technologies]]}} \newline [[Project Description]]
+    [[end for]]
+    \end{itemize} \\ &
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{p{20mm} p{155mm}}
+    \textbf{[[Localized Languages]]} &
+    \vspace{-3mm}
+    \begin{itemize}[leftmargin=*,nosep]
+    [[for Language in Languages]]
+        \item \textbf{[[Language Name]]} ([[Language Level]])
     [[end for]]
     \end{itemize} \\ &
 \end{tabularx}

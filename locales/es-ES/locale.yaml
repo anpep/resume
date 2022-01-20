@@ -1,6 +1,6 @@
 Bio:
   Full-Name: Ángel Pérez
-  Description: Estudiante de Informática
+  Description: Estudiante de Ingeniería Informática
   Location: Valencia, España
   Contact:
     Phone:
@@ -57,8 +57,6 @@ Skills:
     Level: Intermedio
   - Description: Programación en kernel Linux
     Level: Básico
-  - Description: Depuración de software de sistemas
-    Level: Intermedio
   - Description: C\#/.NET y Win32
     Level: Avanzado
   - Description: Python 3
@@ -69,13 +67,40 @@ Skills:
     Level: Básico
   - Description: Desarrollo web full-stack
     Level: Intermedio
-  - Description: Desarrollo en entornos UNIX
-    Level: Intermedio
   - Description: Unity y OpenGL
     Level: Básico
+
+Projects:
+  - Name: SpaceCollider
+    Technologies: C++, Linux, Windows, OpenGL
+    Description: Videojuego 3D utilizando OpenGL y C++ moderno.
+    URI: https://github.com/anpep/SpaceCollider
+
+  - Name: Captain
+    Technologies: C\#, C++, Win32
+    Description: Grabador de juegos de alto rendimiento con Direct2D/3D y \mbox{MediaFoundation}.
+    URI: https://github.com/CaptainApp
+
+  - Name: rzctl
+    Technologies: C, Linux, Kernel
+    Description: Driver y utilidad de configuración de periféricos Razer\textregistered.
+    URI: https://github.com/anpep/rzctl
+
+  - Name: SteelSeriesSvc
+    Technologies: C, Win32
+    Description: Añade soporte de personalización para teclados SteelSeries\textregistered~ a través de HID.
+    URI: https://github.com/anpep/SteelSeriesSvc
+
+Languages:
+  - Name: Español
+    Level: nativo
+  - Name: Inglés
+    Level: C1
 
 Localized:
   Experience: Experiencia
   Education: Educación
   Certifications: Cursos
   Skills: Habilidades
+  Projects: Proyectos
+  Languages: Idiomas
