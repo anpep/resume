@@ -15,11 +15,8 @@
 }
 
 \pagenumbering{gobble}
-\hypersetup{
-    colorlinks=false,% hyperlinks will be black
-    urlbordercolor=black,% hyperlink borders will be red
-    pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
-}
+\hypersetup{pdfborder = {0 0 0}}
+
 \begin{document}
 \begin{tabularx}{\textwidth}{m{50mm} m{95mm} m{50mm}}
     {\huge\textbf{[[Bio Full-Name]]}} \newline &
@@ -27,9 +24,9 @@
     [[Bio Description]] \newline
     [[Bio Location]] \newline
     \end{center} &
-    {\small \href{[[Bio Contact Phone URI]]}{[[Bio Contact Phone Human-friendly]]}} \newline
-    {\small \href{[[Bio Contact E-mail URI]]}{[[Bio Contact E-mail Human-friendly]]}} \newline
-    {\small \href{[[Bio Contact Web URI]]}{[[Bio Contact Web Human-friendly]]}} \newline
+    {\small \underline{\href{[[Bio Contact Phone URI]]}{[[Bio Contact Phone Human-friendly]]}}} \newline
+    {\small \underline{\href{[[Bio Contact E-mail URI]]}{[[Bio Contact E-mail Human-friendly]]}}} \newline
+    {\small \underline{\href{[[Bio Contact Web URI]]}{[[Bio Contact Web Human-friendly]]}}} \newline
 \end{tabularx}
 
 \begin{tabularx}{\textwidth}{p{20mm} p{125mm} p{50mm}}
@@ -88,13 +85,13 @@
     \vspace{-7mm}
     \begin{itemize}[leftmargin=*]
     [[for even Project in Projects]]
-        \item \textbf{\href{[[Project URI]]}{[[Project Name]]}} \newline {\small\textit{[[Project Technologies]]}} \newline [[Project Description]]
+  \item \underline{\textbf{\href{[[Project URI]]}{[[Project Name]]}}} \newline {\small\textit{[[Project Technologies]]}} \newline [[Project Description]]
     [[end for]]
     \end{itemize} &
     \vspace{-7mm}
     \begin{itemize}[leftmargin=*]
     [[for odd Project in Projects]]
-        \item \textbf{\href{[[Project URI]]}{[[Project Name]]}} \newline {\small\textit{[[Project Technologies]]}} \newline [[Project Description]]
+  \item \underline{\textbf{\href{[[Project URI]]}{[[Project Name]]}}} \newline {\small\textit{[[Project Technologies]]}} \newline [[Project Description]]
     [[end for]]
     \end{itemize} \\ &
 \end{tabularx}
