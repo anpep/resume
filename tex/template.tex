@@ -33,7 +33,7 @@
     \textbf{[[Localized Experience]]} &
     [[for Job in Experience]]
         \textbf{[[Job Title]]} \newline
-        \textit{[[Job Company]]}
+        \textit{\underline{\href{[[Job Company URI]]}{[[Job Company Name]]}}, [[Job Company Location]]}
         \begin{itemize}[leftmargin=*]
         [[for Achievement in Job Achievements]]
             \item [[Achievement]]
@@ -47,7 +47,7 @@
     \textbf{[[Localized Education]]} &
     [[for Item in Education]]
         \textbf{[[Item Title]]} \newline
-        \textit{[[Item University]]} \newline &
+        \textit{\underline{\href{[[Item University URI]]}{[[Item University Name]]}}, [[Item University Location]]} \newline &
         {\small [[Item Timeline From]]--[[Item Timeline To]]} \\ &
     [[end for]]
 \end{tabularx}
@@ -56,7 +56,7 @@
     \textbf{[[Localized Certifications]]} &
     [[for Certification in Certifications]]
         \textbf{[[Certification Title]]} \newline
-        \textit{[[Certification Organization]]}
+        \textit{\underline{\href{[[Certification Organization URI]]}{[[Certification Organization Name]]}}}
         \begin{flushleft}
         [[Certification Description]]
         \end{flushleft} &

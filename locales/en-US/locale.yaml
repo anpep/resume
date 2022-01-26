@@ -15,12 +15,18 @@ Bio:
 
 Experience:
   - Title: Python Developer
-    Company: Connected Health Services S.L.
+    Company:
+      Name: Connected Health Services Ltd.
+      URI: https://www.chroniccareconnect.com/index.html
+      Location: València
     Timeline:
       From: Feb. '22
 
   - Title: Full-stack Developer
-    Company: Furious Koalas Ltd.
+    Company:
+      Name: Furious Koalas Ltd.
+      URI: https://www.furiouskoalas.com/
+      Location: Ciudad Real
     Achievements:
       - Aided in the development of the web app for the Council of Europe quiz on the European Day
         of Languages 2021.
@@ -32,20 +38,28 @@ Experience:
 
 Education:
   - Title: Student Exchange (B.Sc. Computer Science)
-    University: Universitat Politècnica de València, Valencia
+    University:
+      Name: Universitat Politècnica de València
+      URI: https://www.upv.es/en
+      Location: Valencia
     Timeline:
       From: Sep. '21
       To: Jun. '22
 
   - Title: B.Sc. Computer Science (Comp. Engineering)
-    University: Universidad de Castilla-La Mancha, Ciudad Real
+    University:
+      Name: Universidad de Castilla-La Mancha
+      URI: https://www.uclm.es/?sc_lang=en
+      Location: Ciudad Real
     Timeline:
       From: Sep. '18
       To: Jun. '21
 
 Certifications:
   - Title: LearnEnglish Select Advanced Level (C1)
-    Organization: British Council
+    Organization:
+      Name: British Council
+      URI: https://www.britishcouncil.org
     Description:
       Intensive English course (C1 level) with a duration of three months in which I scored
       100/100 in the final test.
