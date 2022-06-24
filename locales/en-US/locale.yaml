@@ -1,6 +1,6 @@
 Bio:
   Full-Name: Ángel Pérez
-  Description: Computer Engineering Student
+  Description: Computer Engineer
   Location: Valencia, Spain
   Contact:
     Phone:
@@ -14,13 +14,25 @@ Bio:
       Human-friendly: anpep.co
 
 Experience:
+  - Title: Associate Software Engineer
+    Company:
+      Name: Canonical Ltd.
+      URI: https://canonical.com/
+      Location: Remote
+    Timeline:
+      From: Jul. '22
+
   - Title: Python Developer
     Company:
       Name: Connected Health Services Ltd.
       URI: https://www.chroniccareconnect.com/index.html
       Location: València
+    Achievements:
+      - Aided in the development of the API consumed by multiple services bringing support to specialized treatments for chronic patients with connected medical devices.
+      - Maintenance and development of the tool used by development and support teams in order to detect and troubleshoot data inconsistencies and software bugs in this API, saving thousands of dollars to the company.
     Timeline:
       From: Feb. '22
+      To: Jun. '22
 
   - Title: Full-stack Developer
     Company:
@@ -76,8 +88,8 @@ Skills:
     Level: Advanced
   - Description: Python 3
     Level: Advanced
-  - Description: Java
-    Level: Intermediate
+  - Description: Go
+    Level: Basic
   - Description: Embedded systems and MCUs
     Level: Basic
   - Description: Full-stack web development

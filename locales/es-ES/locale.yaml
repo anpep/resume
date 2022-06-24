@@ -1,6 +1,6 @@
 Bio:
   Full-Name: Ángel Pérez
-  Description: Estudiante de Ingeniería Informática
+  Description: Computer Engineer
   Location: Valencia, España
   Contact:
     Phone:
@@ -14,13 +14,26 @@ Bio:
       Human-friendly: anpep.co
 
 Experience:
+  - Title: Ingeniero de Software
+    Company:
+      Name: Canonical Ltd.
+      URI: https://canonical.com/
+      Location: Remoto
+    Timeline:
+      From: Jul. '22
+
   - Title: Desarrollador Python
     Company:
       Name: Connected Health Services S.L.
       URI: https://www.chroniccareconnect.com/index.html
       Location: València
+    Achievements:
+      - Participación en el desarrollo de la API utilizada por múltiples servicios que dan soporte a tratamientos especializados para pacientes crónicos con dispositivos médicos conectados.
+      - Mantenimiento y desarrollo de una herramienta para los equipos de desarrollo y soporte con el fin de detectar problemas e inconsistencias en la base de datos utilizada por dicha API, ahorrando miles de dólares a la compañía.
     Timeline:
       From: Feb. '22
+      To: Jun. '22
+      
   - Title: Desarrollador Full-stack
     Company:
       Name: Furious Koalas S.L.
@@ -75,8 +88,8 @@ Skills:
     Level: Avanzado
   - Description: Python 3
     Level: Avanzado
-  - Description: Java
-    Level: Intermedio
+  - Description: Go
+    Level: Básico
   - Description: Sistemas empotrados y MCU
     Level: Básico
   - Description: Desarrollo web full-stack
